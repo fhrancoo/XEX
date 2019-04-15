@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/slaider.css">
+    <link rel="stylesheet" href="css/navegador.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/faviicon.png" type="image/x-icon">
+    <script src="js/smooth-scroll.min.js"></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', { speed: 1200 });
+    </script>
+
+    <title>XEX</title>
+</head>
+
+<body>
+
+    <!-- .....................................SECCION 1.............................................. -->
+    <span id="sec-1"></span>
+    <!-- .....................................Navbar.............................................. -->
+    <nav class="header">
+        <div class="logo" onclick="navFunction()">
+            <h3>=XEX=</h3>
+        </div>
+        <ul id="showNav">
+            <li><a data-scroll onclick="navCerrar()" href="#sec-1">INICIO</a></li>
+            <li><a data-scroll onclick="navCerrar()" href="#sec-2">NOSOTROS</a></li>
+            <li><a data-scroll onclick="navCerrar()" href="#sec-3">PRODUCTOS</a></li>
+            <li><a data-scroll onclick="navCerrar()" href="#sec-4">CLIENTES</a></li>
+            <li><a data-scroll onclick="navCerrar()" href="#sec-5">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <!-- .....................................Slaider.............................................. -->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img class="slaider-img" id="Imagen1" alt="" src="img/1.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slaider-img" id="Imagen2" alt="" src="img/2.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slaider-img" id="Imagen3" alt="" src="img/3.jpg" />
+        </div>
+
+        <!-- .....................................Logo.............................................. -->
+
+        <div class="logoaparte"> <img class="loogooo" src="img/logo3.png" alt=""></div>
+
+    </div>
+
+
+
+
+
+    <!-- ...............................Puntos del Slaider....................................... -->
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+    <br><br>
+
+    <hr><br><br>
+    <span id="sec-2"></span>
+    <!-- .....................................SECCION 2.............................................. -->
+
+    <div>
+        <h2>NOSOTROS</h2>
+        <p class="one">
+            XEX, soluciones en software, es una empresa de servicios informáticos fundada a principios de 1994 por
+            un grupo de profesionales informáticos con alta experiencia en la temática y en la faz Administrativa –
+            Contable.
+            <br><br>
+            Su objetivo primordial es proveer soluciones de alta calidad a pequeñas y medianas empresas, que requieran
+            este atributo como diferencia competitiva.
+            <br><br>
+            Basa su estrategia de crecimiento en la relación directa con sus clientes, priorizando la calidad del
+            servicio prestado.
+            <br><br>
+            Desde su nacimiento, XEX ha prestado especial atención a la asistencia técnica y el soporte adecuado,
+            sin los cuales es imposible transformar herramientas tecnológicas en soluciones reales, concentrando
+            nuestros esfuerzos en el desarrollo de productos informáticos llave en mano, brindando un excelente
+            servicio pre y post-venta.
+            <br><br>
+            XEX se encuentra inscripta en el REGISTRO INDUSTRIAL DE LA PROVINCIA DE CÓRDOBA, como industria de
+            software. XEX es un Microsoft Partner Program.</p>
+
+    </div>
+
+
+
+    <!-- .....................................SECCION 3.............................................. -->
+    <br><br><span id="sec-3"></span>
+
+    <h2>PRODUCTOS</h2>
+    <div class="productos-padre">
+        <div class="productos-hijo">
+            <img class="img-pro" src="img/gear.png" alt="">
+            <h3 class="sub-pro">DESARROLLO DE SOFTWARE</h3>
+            <p class="text-pro">Ofrecemos servicios de outsourcing y software a medida con tecnologías Microsoft .NET y
+                Java. Nuestras
+                soluciones permiten integrar los procesos de negocio de su empresa con: proveedores, clientes y socios,
+                diseñando exclusivamente el sistema que mejor se adapta a sus necesidades</p>
+        </div>
+        <div class="productos-hijo">
+            <img class="img-pro" src="img/compu.png" alt="">
+            <h3 class="sub-pro"> DISEÑO Y DESARROLLO WEB</h3>
+            <p class="text-pro"> Asesoramos en el desarrollo de sitios web, con alta calidad de diseño estético y de
+                contenidos. Nos
+                focalizamos en la utilización de últimas tecnologías, que presentan un rendimiento real en la web, para
+                que
+                nuestros clientes alcancen sus objetivos comerciales e institucionales.</p>
+        </div>
+        <div class="productos-hijo">
+            <img class="img-pro" src="img/gente.png" alt="">
+            <h3 class="sub-pro"> CONSULTORÍA</h3>
+            <p class="text-pro"> Ayudamos a resolver los requerimientos tecnológicos de su empresa, con personal
+                especializado,
+                priorizando
+                precio y calidad en el servicio.</p>
+        </div>
+    </div>
+
+    <!-- .....................................SECCION 4.............................................. -->
+    <div id="sec-4"></div>
+    <br><br>
+
+    <h2>CLIENTES</h2>
+
+    <div class="cliee">
+        <a href="https://www.gruposancorseguros.com/"><img class="arduino" src="img/sancor.jpg" alt="x"></a>
+        <a href="http://www.ilolay.com.ar/"><img class="arduino" src="img/Ilolay.jpg" alt="x"></a>
+        <a href="https://www.manfrey.com.ar/"><img class="arduino" src="img/manfrey.jpg" alt="x"></a>
+        <a href="https://www.megatone.net/"><img class="arduino" src="img/megatone.jpg" alt="x"></a>
+        <a href="https://www.musimundo.com/"><img class="arduino" src="img/Musimundo.jpg" alt="x"></a>
+    </div>
+
+    <!-- .....................................SECCION 5.............................................. -->
+    <br><br><span id="sec-5"></span>
+    <h2>CONTACTO</h2>
+    <div class="padre">
+
+        <div class="hijo" id="googleMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6860.949946802164!2d-62.004964200000046!3d-30.705045000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1539029831388"></iframe>
+        </div>
+
+        <div class="hijo section">
+            <form>
+                <input name="name" placeholder="Nombre" type="text" required /><br />
+                <input name="email" placeholder="E-mail" type="email" required /><br />
+                <textarea name="message" placeholder="Mensaje" required></textarea>
+                <input type="submit" value="ENVIAR" class="submit" />
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- .....................................FOOTER.............................................. -->
+
+    <br><br>
+    <hr>
+
+    <footer>
+        <p class="footer-p">Copyrights © 2018 Todos los derechos reservados by <strong>fhranco_o</strong></p>
+        <div class="footer-d">
+            <h3 class="footer-l">XEX</h3>
+        </div>
+    </footer>
+
+    <script src="js/slaider.js"></script>
+    <script src="js/navegador.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    }
+
+    body {
+    /* font-family: "lato", sans-serif; 
+    font-family: 'Courier New', Courier, monospace; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #aa8f18;                 /* Color del Body */
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .header{
+    width:100%;
+    height: 90px;
+    }
+    .logo{
+    width:100%;
+    height:80px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+    font-size:40px;
+    background-color:#dcdde1;    /* Color del Nav  Estatico*/
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:10;
+    }
+    .logo h3{
+    padding-top: 15px;
+    cursor: pointer;
+    }
+    nav ul{
+    background-color:#dcdde1;    /* Color del Nav Menu*/
+    position: fixed;
+    top:-300px;
+    left:0;
+    right:0;
+    z-index:1;
+    transition: ease-in-out 0.500s;
+    }
+    ul li{
+    height:50px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+    list-style:none;
+    display: flex;
+    }
+    ul li a{
+    padding-top:15px;
+    text-decoration:none;
+    color:#555;
+    font-size: 20px;
+    flex: 1;
+    }
+    nav ul li a:hover{
+    background-color:#555;
+    color:#dcdde1;
+    }
+    .showNav{
+    position: fixed;
+    height: 255px;
+    top:90px;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 2;
+    opacity: 0.8;
+    }
